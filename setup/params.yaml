@@ -1,0 +1,45 @@
+# Configuration parameters for SketchUp extension setup
+# Copy this file to params.json and fill in your values
+
+# Name of the project directory that will be created
+project_name: "sketchup-extension-starter"
+
+# Required Ruby version for the project
+ruby_version: "3.3.7"
+
+# Target SketchUp version for the extension
+sketchup_version: "2025"
+
+# Your name for the extension documentation
+author_name: "Your Name"
+
+# Your email for the extension documentation
+author_email: "your.email@example.com"
+
+# Your GitHub username for repository setup
+github_username: "your-github-username"
+
+# Display name of your extension in SketchUp
+extension_name: "MyExtension"
+
+# Description of your extension
+extension_description: "A SketchUp extension template"
+
+# Version of your extension (semantic versioning)
+extension_version: "1.0.0"
+
+# Name of the main extension folder and file (must be lowercase with underscores)
+# This will be used to rename src/ex_hello_cube to src/your_extension_name
+# Example: "my_extension" will create src/my_extension/main.rb
+extension_folder_name: "my_extension"
+
+# List of VSCode extensions to install
+vscode_extensions:
+  - "rebornix.ruby"
+  - "Shopify.ruby-lsp"
+  - "misogi.ruby-rubocop"
+  - "castwide.solargraph"
+  - "kaiwood.endwise"
+  - "aki77.rails-db-schema"
+  - "hridoy.rails-snippets"
+  - "mbessey.vscode-rufo"
