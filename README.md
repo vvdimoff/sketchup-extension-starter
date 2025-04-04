@@ -1,17 +1,17 @@
 # SketchUp Extension Starter Template
 
-Этот шаблон поможет вам быстро начать разработку расширений для SketchUp с использованием Ruby.
+This template will help you quickly start developing SketchUp extensions using Ruby.
 
-## Быстрый старт
+## Quick Start
 
-1. Клонируйте этот репозиторий:
+1. Clone this repository:
 
 ```bash
-git clone https://github.com/your-username/sketchup-extension-starter.git my-extension
+git clone https://github.com/vvdimoff/sketchup-extension-starter.git my-extension
 cd my-extension
 ```
 
-2. Отредактируйте файл `setup/params.yaml` под свои нужды:
+2. Edit `setup/params.yaml` to configure your extension:
 
 ```yaml
 project_name: "my-extension"
@@ -25,49 +25,49 @@ extension_version: "1.0.0"
 extension_folder_name: "my_extension"
 ```
 
-3. Запустите установщик:
+3. Run the setup script:
 
 ```bash
 ruby setup/setup.rb
 ```
 
-4. Перейдите в созданную директорию и откройте проект в VSCode:
+4. Navigate to the created directory and open the project in VSCode:
 
 ```bash
 cd my-extension
 code .
 ```
 
-5. Создайте новый репозиторий на GitHub и отправьте код:
+5. Create a new repository on GitHub and push your code:
 
 ```bash
 git remote add origin https://github.com/your-username/my-extension.git
 git push -u origin main
 ```
 
-6. После успешной установки вы можете удалить папку `setup`, она больше не нужна.
+6. After successful setup, you can safely delete the `setup` directory as it's no longer needed.
 
-## Структура проекта
+## Project Structure
 
 ```
 my-extension/
-├── src/                    # Исходный код расширения
-│   └── my_extension/      # Директория вашего расширения
-│       └── main.rb        # Основной файл расширения
-├── .vscode/               # Настройки VSCode
-├── .rubocop.yml          # Настройки RuboCop
-├── .solargraph.yml       # Настройки Solargraph
-├── Gemfile               # Зависимости Ruby
-└── README.md             # Документация
+├── src/                    # Extension source code
+│   └── my_extension/      # Your extension directory
+│       └── main.rb        # Main extension file
+├── .vscode/               # VSCode settings
+├── .rubocop.yml          # RuboCop settings
+├── .solargraph.yml       # Solargraph settings
+├── Gemfile               # Ruby dependencies
+└── README.md             # Documentation
 ```
 
-## Требования
+## Requirements
 
-- Ruby 3.3.7 или выше
-- SketchUp 2025 или выше
-- Visual Studio Code с рекомендуемыми расширениями
+- Ruby 3.3.7 or higher
+- SketchUp 2025 or higher
+- Visual Studio Code with recommended extensions
 
-## Рекомендуемые расширения VSCode
+## Recommended VSCode Extensions
 
 - rebornix.ruby
 - Shopify.ruby-lsp
@@ -76,10 +76,10 @@ my-extension/
 - kaiwood.endwise
 - mbessey.vscode-rufo
 
-## Лицензия
+## License
 
 MIT License
 
-## Автор
+## Author
 
 Your Name (your.email@example.com)
